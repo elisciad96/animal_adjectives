@@ -1,0 +1,78 @@
+<!doctype html>
+<!--
+  A cut-down copy of the real page's structure. Each row is here because it
+  reproduces a specific quirk of the live table; nothing is invented for its own sake.
+-->
+<html>
+<body>
+<table class="infobox"><tr><th>Unrelated table</th></tr></table>
+
+<!-- "Generic terms": the animal is in "Trivial name", adjectives are comma-separated. -->
+<table class="wikitable sortable">
+  <tr>
+    <th>Scientific term</th><th>Trivial name</th><th>Young</th><th>Female</th><th>Male</th>
+    <th><a href="/wiki/Collective_noun">Collective noun</a></th>
+    <th><a href="/wiki/Collateral_adjective">Collateral adjective</a></th>
+  </tr>
+  <tr>
+    <td>Aves</td><td><a href="/wiki/Bird">bird</a></td><td>chick</td><td>hen</td><td>cock</td><td>flock</td><td>avian</td>
+  </tr>
+  <!-- Same animal as the species table, spelled differently. -->
+  <tr>
+    <td>Bovinae</td><td><a href="/wiki/Cattle">cattle</a>; ox,<sup><a href="#cite_note-5">[5]</a></sup> cow, kine (plural)</td>
+    <td>calf</td><td>cow</td><td>bull</td><td>herd</td><td>bovine</td>
+  </tr>
+  <!-- These two rowspans run through the two rows below, shifting their columns. -->
+  <tr>
+    <td>Suinae</td><td><a href="/wiki/Domestic_pig">pig</a></td><td>piglet</td>
+    <td rowspan="3">sow</td><td rowspan="3">boar</td><td>herd</td><td>porcine, suine</td>
+  </tr>
+  <tr>
+    <td>Procyonidae</td><td><a href="/wiki/Raccoon">Raccoon family of Carnivorans</a></td>
+    <td rowspan="2">cub, kit</td><td rowspan="2">gaze</td><td>procyonid, procyonine</td>
+  </tr>
+  <!-- Only three real cells: the adjective is the third <td> but in column 6. -->
+  <tr>
+    <td>Viverridae</td><td><a href="/wiki/Civet">Civet family of Carnivorans</a></td><td>viverrid, viverrine</td>
+  </tr>
+</table>
+
+<!-- "Terms by species or taxon": the animal is in "Animal", adjectives use <br>. -->
+<table class="wikitable sortable sticky-header">
+  <tr>
+    <th>Animal</th><th>Young</th><th>Female</th><th>Male</th><th>Collective noun</th>
+    <th><a href="/wiki/Collateral_adjective">Collateral adjective</a></th><th>Culinary noun for meat</th>
+  </tr>
+  <!-- Alphabetical divider, not an animal. -->
+  <tr><th colspan="7"><span class="anchor" id="A"></span>A</th></tr>
+  <tr>
+    <td><a href="/wiki/Bear">Bear</a> (<a href="/wiki/List_of_ursids">list</a>)<sup><a href="#cite_note-1">[1]</a></sup></td>
+    <td>cub</td><td>sow</td><td>boar</td><td>sloth</td>
+    <td>ursid<br>ursine<sup><a href="#cite_note-2">[2]</a></sup></td><td></td>
+  </tr>
+  <tr>
+    <td><a href="/wiki/Cattle">Cattle</a> (<a href="/wiki/List_of_cattle_breeds">list</a>)</td>
+    <td>calf</td><td>cow</td><td>bull</td><td>herd</td>
+    <td>bovine<br>taurine (male)<br>vaccine (female)</td><td>beef</td>
+  </tr>
+  <!-- Empty adjective cell and a same-page cross-reference. -->
+  <tr>
+    <td><a href="/wiki/Donkey">Donkey</a> (<a href="/wiki/List_of_donkey_breeds">list</a>)<br>See <a href="#Ass">Ass</a></td>
+    <td></td><td></td><td></td><td></td><td></td><td></td>
+  </tr>
+  <!-- The N/A template: hidden text that must not become an adjective called "n/a". -->
+  <tr>
+    <td><a href="/wiki/Gecko">Gecko</a></td><td>hatchling</td><td>female</td><td>male</td><td>colony</td>
+    <td class="table-na"><span aria-hidden="true">—</span><link rel="mw-deduplicated-inline-style" href="mw-data:x"><span class="sr-only">N/a</span></td><td></td>
+  </tr>
+  <tr>
+    <td><a href="/wiki/Domestic_pig">Pig</a> (<a href="/wiki/List_of_pig_breeds">list</a>)<br>Also see <a href="#Boar">Boar</a></td>
+    <td>piglet</td><td>sow</td><td>boar</td><td>herd</td><td>porcine<br>suine</td><td>pork</td>
+  </tr>
+  <!-- Has one cell more than the header. -->
+  <tr>
+    <td><a href="/wiki/Sea_urchin">Sea urchin</a></td><td></td><td></td><td></td><td>herd</td><td>echinoid</td><td>uni</td><td></td>
+  </tr>
+</table>
+</body>
+</html>
